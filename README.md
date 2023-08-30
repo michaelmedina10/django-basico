@@ -17,3 +17,8 @@ Comando help:
 - **python manage.py --help**
 
 Ao criar um app, precisamos cadastrá-lo em settings.py -> INSTALLED_APPS
+
+por default, pastas com nomes de templates e static ja são procurados pelo django graças a config em settings.py, caso seja necessário
+criar outras pastas na raiz por exemplo, precisamos cadastrá-lo em settings.py. <br>
+
+![Alt text](image.png)
