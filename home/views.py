@@ -6,5 +6,8 @@ from django.http import HttpResponse, HttpRequest
 def home(request: HttpRequest) -> HttpResponse:
     return render(
         request,
-        'home/home.html'
+        'home/home.html',
+        {
+            'text': 'Olá Home'
+        }
     )
